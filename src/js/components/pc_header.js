@@ -50,7 +50,7 @@ class PCHeader extends React.Component {
         var formData = this.props.form.getFieldsValue();
         console.log(formData);
         //这里fetch的这个网址是一个叫咕咕监控的测试请求的一个
-        fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=" + this.state.action
+        fetch("newsapi.gugujiankong.com/Handler.ashx?action=" + this.state.action
 		+ "&username="+formData.userName+"&password="+formData.password
 		+"&r_userName=" + formData.r_userName + "&r_password="
 		+ formData.r_password + "&r_confirmPassword="
