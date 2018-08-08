@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  mode:"development",
+  mode:"production",
   entry: "./src/js/root.js",
 //   context: path.join(__dirname),
 //   devtool: debug ? "inline-sourcemap" : null,
